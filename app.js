@@ -1,7 +1,7 @@
 const txtAnim = document.querySelector("h1");
 
 new Typewriter(txtAnim, {
-    //loop: true,
+  //loop: true,
   deleteSpeed: 20,
 })
   .changeDelay(20)
@@ -20,4 +20,8 @@ new Typewriter(txtAnim, {
   .pauseFor(1000)
   .deleteChars(5)
   .typeString('<span style="color: #ff6910"> Javascript</span> !')
+  .pauseFor(1000)
+  .deleteChars(39)
+  .typeString("Bienvenue sur mon site !")
+
   .start();
